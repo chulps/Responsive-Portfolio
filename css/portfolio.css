@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+    margin: 0;
+    padding: 26px;
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: normal;
+	font-size:40px;
+}
+
+h2 {
+	padding: 25px 0 0 25px
+}
+
+.item{
+	width: 250px;
+	height: 250px;
+	border: solid 1px grey;
+	display: inline-block;
+	margin:24px;
+	color: white;
+	text-align: center;
+	
+}
+
+.coralbg{
+	background-color: coral;
+	
+} 
+
+.lightcoralbg{
+	background-color: lightcoral;
+	
+}
+
+.salmonbg{
+	background-color: salmon;
+	
+}
+
+.darksalmonbg{
+	background-color: darksalmon;
+	
+}
+
+.bluebg{
+	background-color: blue;
+	
+}
+
+.dodgerbluebg{
+	background-color: dodgerblue;
+	
+}
+
+.darkseagreenbg{
+	background-color: darkseagreen;
+	
+}
+
+.lavenderblush{
+	background-color: lavenderblush;
+	
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	
+	
+}
+
+
+
+.item p {
+	padding: 
+}
+

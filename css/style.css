@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+	color: grey;
+	text-decoration: none;
+}
+
+body {
+    background-image: url(../images/los_angeles_bg.jpg);
+	margin: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+    margin: 0;
+    padding: 26px;
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: normal;
+	font-size:40px;
+}
+
+h2 {
+    margin: 0 0 20px 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	font-weight: normal;
+	
+}
+
+header {
+   position: fixed; 
+   top: 0;
+   width: 100%;
+   background:rgba(255,255,255,0.50);
+   border-bottom:solid 2px white;
+	-webkit-transition: border .5s; /* For Safari 3.1 to 6.0 */
+    transition: background-colr .5s ;
+}
+  
+ 
+
+    
+    header:hover {
+      background-color: lightgreen;
+    }
+
+
+#headwrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#name{
+    margin: 0;
+    background-color: #0B9E7E;
+    float: left;
+}
+
+nav {
+    padding: 30px 0;
+    margin: 0;
+    float: right;
+
+}
+
+.nav {
+    display: inline-block;
+    margin: 0 0 0 35px;
+	color: dimgray;
+}
+
+#container{
+    overflow: auto;
+    clear: both;
+    margin: 0 auto 180px;
+    padding: 160px 0 20px 0;
+    width: 960px;
+    position: relative;
+	height: auto;
+}
+
+#left{
+    float: left;
+	border: solid white;
+    width: 650px;
+    height: auto;
+	padding: 20px 20px 0 20px;
+	background: rgba(237,237,237,.5)
+
+}
+
+#leftwrap{
+	border-top: 2px solid grey;
+	padding-top: 20px;
+}
+
+.profile {
+    display:block;
+	margin: 0 20px 20px 0;
+	border: solid 2px white;
+    width: 270px;
+    height: 270px;
+    border-radius: 310.5px;
+	overflow: hidden;
+    background-image: url("https://i.imgur.com/ooaajrX.jpg");
+    background-size: cover;
+    -webkit-transition: border .5s; /* For Safari 3.1 to 6.0 */
+    transition: background-image .5s ;
+	
+    
+}
+
+.profile:hover {
+    background-image: url("https://i.imgur.com/9bLAgEg.gif");
+	border:rgba(255,255,255,0.00) ;
+}
+
+
+
+
+#bio{
+    width: auto;
+    overflow: auto;
+	line-height: 1.5;
+	
+}
+
+#caption {
+    display: block;
+	background-color:#0B9E7E;
+	width: 265px;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	margin: 0;
+	
+}
+
+#crutch{
+	float: left;
+}
+
+
+#right{
+	float: right;
+    width: 270px;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.icon {
+    display: inline-block;
+    width: 70px;
+    height: auto;
+    position: relative;
+
+}
+
+.icon img{
+	width: 75px;
+	height: auto;
+		
+}
+
+#iconwrap{
+	border-top: 2px solid grey;
+	padding: 20px 0 0 0;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.quote{
+	font-style: italic;
+	text-align: center;
+	display: block;
+}
+
+footer {
+    text-align: center;
+	border-top: #0B9E7E solid 10px;
+	padding: 40px;
+	background-color: grey;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	
+	
+}
+
+.spacer{
+	width: 100%;
+	min-height: 100px;
+}
+
+.transwhite{
+	   background: rgba(255, 255, 255, 0.5); 
+
+}
+  
+
+
+@media (max-width: 980px){
+	#right{
+	float: right;
+    width: 270px;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+	
+	#left{
+    float: left;
+	border: solid white;
+    width: 500px;
+    height: auto;
+	padding: 20px 20px 0 20px;
+	background: rgba(237,237,237,.5)
+
+}
+	
+	#headwrap {
+    width: 890px;
+    margin: 0 90px;
+}
+	
+	#container{
+    overflow: auto;
+    clear: both;
+    margin: 0 auto;
+    padding: 160px 80px 20px 80px;
+    width: 960px;
+    position: relative;
+	height: auto;
+}
+	
+	.profile {
+    display:block;
+	margin: 0 20px 20px 0;
+	border: solid 2px white;
+    width: 100%;
+	height: 480px;
+    border-radius: 50%;
+	overflow: hidden;
+    background-image: url("https://i.imgur.com/ooaajrX.jpg");
+    background-size: cover;
+    -webkit-transition: border .5s; /* For Safari 3.1 to 6.0 */
+    transition: background-image .5s ;
+	
+    
+}
+	
+	#crutch{
+	float: none;
+}
+	
+	#caption {
+    display: block;
+	background-color:#0B9E7E;
+	width: 100%;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	margin: 0 0 20px 0;
+	
+}
+	
+	nav {
+    padding: 30px 0;
+    margin: 0 90px;
+
+}
+	
+	
+}
+
+
+
+@media (max-width: 768px){
+	
+	
+	
+	#right{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+	
+	#left{
+	border: solid white;
+    width: 100%;
+    height: auto;
+		margin-bottom: 60px;
+	padding: 20px 20px 0 20px;
+	background: rgba(237,237,237,.5)
+
+}
+	
+	#headwrap {
+    width: 100%;
+    margin: 0;
+}
+	
+	#container{
+    overflow: auto;
+    clear: both;
+    margin: 100px auto;
+    padding: 160px 80px 20px 80px;
+    width: 750px;
+    position: relative;
+	height: auto;
+}
+	
+	.profile {
+    display:block;
+	margin: 0 20px 20px 0;
+	border: solid 2px white;
+    width: 100%;
+	height: 480px;
+    border-radius: 50%;
+	overflow: hidden;
+    background-image: url("https://i.imgur.com/ooaajrX.jpg");
+    background-size: cover;
+    -webkit-transition: border .5s; /* For Safari 3.1 to 6.0 */
+    transition: background-image .5s ;
+	
+    
+}
+	
+	#crutch{
+	float: none;
+}
+	
+	#caption {
+    display: block;
+	background-color:#0B9E7E;
+	width: 100%;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	margin: 0 0 20px 0;
+	
+}
+	
+	
+	.profile{
+		height: 550px;
+	}
+	
+	#name{
+    margin: 0;
+    background-color: #0B9E7E;
+	width: 100%;
+	text-align: center;
+    
+}
+	
+header {
+   position: fixed; 
+   top: 0;
+   width: 100%;
+   background:rgba(255,255,255,0.50);
+   border-bottom:solid 2px white;
+	-webkit-transition: border .5s; /* For Safari 3.1 to 6.0 */
+    transition: background-colr .5s ;
+}
+	
+	nav {
+    padding: 30px 200px;
+	margin: 0 auto;
+	width: 750px;
+
+}
+	
+	.nav {
+	color: dimgray;
+	text-align: center;
+
+}
+	
+}
